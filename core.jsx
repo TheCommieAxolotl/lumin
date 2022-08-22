@@ -42,6 +42,7 @@ export const config = {
 
 // Compontnt definitions
 const Wrapper = styled("div")`
+    pointer-events: all;
     position: absolute;
     display: flex;
     background: ${config.Styling.Root.backgroundColor};
@@ -104,6 +105,7 @@ const Buttons = styled("div")`
 `;
 
 export const className = `
+    pointer-events: none;
     display: flex;
     width: 100%;
     height: 100%;
